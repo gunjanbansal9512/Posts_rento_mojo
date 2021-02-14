@@ -26,15 +26,16 @@ function App() {
 					{/* <Users users={users.deatils} /> */}
 					<BrowserRouter>
 						<Switch>
+							<Route exact path="/">
+								<Users users={users.deatils} />
+							</Route>
 							<Route path="/posts/:id">
 								<Posts />
 							</Route>
 							<Route exact path="/post/:id">
 								<Post />
 							</Route>
-							<Route exact path="/">
-								<Users users={users.deatils} />
-							</Route>
+
 							<Route path="*">
 								<Users users={users.deatils} />
 							</Route>
