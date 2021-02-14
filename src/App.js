@@ -35,6 +35,9 @@ function App() {
 							<Route exact path="/">
 								<Users users={users.deatils} />
 							</Route>
+							<Route path="*">
+								<Users users={users.deatils} />
+							</Route>
 						</Switch>
 					</BrowserRouter>
 				</div>
