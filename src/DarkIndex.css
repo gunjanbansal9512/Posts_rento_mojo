@@ -1,10 +1,11 @@
 body {
-	background-color: white !important;
+	background-color: black !important;
+	color: white;
 }
 .App {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 20px;
-	background-color: white !important;
+	background-color: black !important;
 }
 /* users page */
 .users table {
@@ -32,7 +33,7 @@ td {
 	justify-content: space-evenly;
 }
 .posts Link:hover {
-	color: black;
+	color: white;
 }
 .posts input {
 	font-size: 20px !important;
